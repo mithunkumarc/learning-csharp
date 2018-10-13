@@ -15,3 +15,7 @@ installation
   
 ##### 4 .running the program
           mono file_name.exe   
+
+
+##### 5. check c#
+              dotnet --info
