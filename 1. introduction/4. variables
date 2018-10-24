@@ -15,3 +15,11 @@
         * (asterisk sign) 	Indirection operator 	Access the value of an address.
 
 
+##### datatypes
+        char 	    1 byte
+        short 	    2 byte
+        int 	    4 byte 	
+        long 	    8 byte
+        float 	    4 byte 	
+        double 	    8 byte 	
+        decimal 	16 byte(whole number)
