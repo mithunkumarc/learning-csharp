@@ -1,0 +1,17 @@
+##### type variable_name;
+    int i, j;  
+    double d;      
+    float f;      
+    char ch;      
+    
+##### Datatypes    
+      Value Data Type 	short, int, char, float, double etc
+      Reference Data Type 	String, Class, Object and Interface
+      Pointer Data Type 	Pointers
+      
+      
+##### pointers
+        & (ampersand sign) 	Address operator 	Determine the address of a variable.
+        * (asterisk sign) 	Indirection operator 	Access the value of an address.
+
+
