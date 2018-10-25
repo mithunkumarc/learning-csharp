@@ -5,8 +5,8 @@
         namespace classobjects  
         {            
             class Car{
-                internal int model;
-                internal double price;
+                internal int model;                     
+                internal double price;          //internal: access specifier : accessible within namespace
                 internal String brand;
                 public void start(){
                     Console.WriteLine("start car");
