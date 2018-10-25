@@ -38,3 +38,22 @@
           foreach(String word in words){
                         Console.WriteLine($"{word}");
                      }
+                     
+                     
+                     
+##### sending array as paramter
+
+        using System;
+        namespace firstprogram{
+            class HelloWorld{                        
+                static void Main(String[] args){
+                    int[] numbers = {20,21,10,5,6,7};
+                new HelloWorld().printArray(numbers);
+                }
+                public void printArray(int[] numbers){
+                    foreach(int number in numbers){
+                        Console.WriteLine(number);
+                    }
+                }                
+            }    
+        }
