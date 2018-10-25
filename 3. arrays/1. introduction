@@ -1,0 +1,40 @@
+##### example 
+
+        using System;
+        namespace firstprogram{
+            class HelloWorld{                        
+                static void Main(string[] args){            
+                     int[] numbers = new int[5];
+                     char[] vowels = {'a','e','i','o','u'};
+                     String[] words = {"antique", "flower" , "tools"};
+                     Boolean[] flags = {true, false,  6>7};
+                     float[] decimals = {12.5f,6.7f,7.8f,9,1f};
+                     Console.WriteLine($"numbers length : {numbers.Length}");
+                     Console.WriteLine($"words length {words.Length}");
+                     Console.WriteLine($"vowels length : {vowels.Length}");
+                     Console.WriteLine($"flags length :{flags.Length}");
+                     Console.WriteLine($"decimals length : {decimals.Length}");
+                     Console.WriteLine("list of words");
+                     foreach(String word in words){
+                        Console.WriteLine($"{word}");
+                     }
+                }                
+            }
+        }
+        
+        output : 
+            numbers length : 5
+            words length 3
+            vowels length : 5
+            flags length :3
+            decimals length : 5
+            list of words
+            antique
+            flower
+            tools
+        
+##### foreach loop        
+          String[] words = {"antique", "flower" , "tools"};
+          foreach(String word in words){
+                        Console.WriteLine($"{word}");
+                     }
