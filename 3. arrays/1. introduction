@@ -39,7 +39,7 @@
                         Console.WriteLine($"{word}");
                      }
                      
-                     
+---                     
                      
 ##### sending array as paramter
 
@@ -55,5 +55,37 @@
                         Console.WriteLine(number);
                     }
                 }                
+            }    
+        }
+
+---
+
+#### params : 
+        In C#, params is a keyword which is used to specify a parameter that takes variable number of arguments. 
+        It is useful when we don't know the number of arguments prior. 
+        Only one params keyword is allowed and no additional parameter is permitted after params keyword in a function declaration.
+
+        using System;
+        namespace firstprogram{
+            class HelloWorld{                        
+                static void Main(String[] args){
+                    int[] numbers = {20,21,10,5,6,7};
+                    new HelloWorld().printArray(numbers);            
+                    Object[] objects = {23,"ranjit",true};
+                    new HelloWorld().printObjects(objects);
+                }
+                public void printArray(params int[] numbers){
+                    foreach(int number in numbers){
+                        Console.WriteLine(number);
+                    }
+                }    
+
+                public void printObjects(params Object[] objects){
+                    Console.WriteLine("list of objects");
+                    foreach(Object o in objects){
+                        Console.WriteLine(o);
+                    }
+                }
+
             }    
         }
