@@ -1,0 +1,35 @@
+> A property is a member that provides a flexible mechanism to read, write, or compute the value of a private field. 
+
+> similar to setter and getter methods
+
+
+        using System;  
+        namespace classobjects  
+        {         
+            class Person{
+                private String name;
+                public String Name{
+                    get {
+                        return name;
+                    }
+                    set {
+                        value = "Mr."+value; 
+                        name = value;
+                    }
+                }
+            }
+            class Test  {                                                           
+                static void Main(string[] args){        
+                    Person person = new Person();
+                    person.Name = "shai hope";
+                    Console.WriteLine($"name of person is  {person.Name}");
+                }     
+            }  
+        }    
+    
+    
+    
+    compile : mcs Test.cs
+    execute : mono Test.exe
+    output :
+    name of person is  Mr.shai hope
