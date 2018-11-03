@@ -11,6 +11,8 @@ installation
 
 ##### 3 .compile
           mcs file_name.cs
+          --or--
+          csc file_name.cs
           
   
 ##### 4 .running the program
