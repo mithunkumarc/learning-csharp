@@ -29,3 +29,6 @@
         output : 
         10
         20
+
+
+Note : const keyword is implicitly static
