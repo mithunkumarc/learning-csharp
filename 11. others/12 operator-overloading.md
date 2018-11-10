@@ -24,3 +24,35 @@
           }
           
           output : the total score is 200
+
+
+
+                              Unary operators you can overload
+
+                              +
+                              -
+                              !
+                              ~
+                              ++
+                              --
+                              true
+                              false
+
+                              Binary operators you can overload
+
+                              +
+                              -
+                              *
+                              /
+                              %
+                              &
+                              |
+                              ^
+                              <<
+                              >>
+                              ==
+                              !=
+                              >
+                              <
+                              >=
+                              <=
