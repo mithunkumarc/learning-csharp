@@ -14,6 +14,8 @@ installation
                 
         https://www.mono-project.com/download/stable/    : skip 1
 
+        https://en.wikipedia.org/wiki/Mono_(software)
+        
 ##### 3 .compile
           mcs file_name.cs
           --or--
