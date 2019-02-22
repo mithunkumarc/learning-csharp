@@ -8,6 +8,11 @@ installation
         
 ##### 2 .Install mono complete on ubuntu  : compiler for c#
         sudo apt-get install mono-complete
+        
+        
+                -- or --
+                
+        https://www.mono-project.com/download/stable/    : skip 1
 
 ##### 3 .compile
           mcs file_name.cs
