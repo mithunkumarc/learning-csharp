@@ -48,3 +48,4 @@ installation
 
                         https://github.com/dotnet/training-tutorials/blob/master/content/csharp/getting-started/README.md
                         https://github.com/neo-project/examples-csharp
+                        https://github.com/la-yumba/functional-csharp-code/tree/master/Examples
