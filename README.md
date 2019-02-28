@@ -42,3 +42,8 @@ installation
                 sudo apt update
 
                 sudo apt install mono-devel
+                
+                
+#### references : 
+
+                        https://github.com/dotnet/training-tutorials/blob/master/content/csharp/getting-started/README.md
