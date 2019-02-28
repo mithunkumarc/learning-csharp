@@ -14,6 +14,8 @@ installation
                 
         https://www.mono-project.com/download/stable/    : skip 1
 
+        https://dotnet.microsoft.com/download/linux-package-manager/ubuntu18-04/sdk-current
+
         https://en.wikipedia.org/wiki/Mono_(software)
         
 ##### 3 .compile
