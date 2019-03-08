@@ -47,3 +47,23 @@
                     hello  world   program
                     
                     rupees     12345
+                    
+#### expression in interpolation
+
+
+                    using System;
+                    class Test{    
+                        static void Main(String[] args){              
+                            String heading = getHeading("chapter one");
+                            Console.WriteLine(heading);//CHAPTER ONE        
+
+                            //expression in interpolation
+                            Console.WriteLine($"{1 == 1}");//True
+
+                        }
+
+                        public static string getHeading(String message){
+                            return $"{message.ToUpper()}";
+                        }
+                    }
+
