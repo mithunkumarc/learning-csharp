@@ -5,4 +5,4 @@
         Console.WriteLine(unnamed_tuple.GetType());
         //System.ValueTuple`2[System.Int32,System.Int32]
         Console.WriteLine(unnamed_tuple.Item1);//1
-        Console.WriteLine(unnamed_tuple.Item2);//1
+        Console.WriteLine(unnamed_tuple.Item2);//2
