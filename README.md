@@ -22,7 +22,25 @@ installation
           mcs file_name.cs
           --or--
           csc file_name.cs
+          --choosing latest compiler ---
+          csc -langversion:latest file_name.cs
+                
+#### 3.1 list of available compiler version         
+
+                csc -langversion:?
           
+          output : 
+                  1
+                2
+                3
+                4
+                5
+                6
+                7.0 (default)
+                7.1
+                7.2
+                7.3 (latest)
+                latest
   
 ##### 4 .running the program
           mono file_name.exe   
