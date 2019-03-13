@@ -41,3 +41,16 @@
             output : 
             rajat
             25
+            
+#### setter can be used for validation
+
+            public int Age{
+                        get{return this.age;}
+                        set{
+                                    if(this.age > 18){
+                                                 this.age = value;
+                                    }else{
+                                                this.age = -1;
+                                    }                
+                            }
+            }
