@@ -10,3 +10,11 @@ named tuple :
                 //or
                 Console.WriteLine(named_tuple.first);//1
                 Console.WriteLine(named_tuple.second);//2			
+
+
+
+#### mixed tuple (mixed datatype)
+
+        var tuple = (10,"hello world");
+        Console.WriteLine(tuple.Item1);
+        Console.WriteLine(tuple.Item2);
