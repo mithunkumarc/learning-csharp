@@ -1,3 +1,13 @@
+#### without formatting
+
+        String name = "rajat";
+        String withOutFormatting = "my name is "+name;
+        
+        //better way to repalce above code
+        String template = "my name is {0}";
+        Console.WriteLine(template,"rajat");
+
+
 #### formatiing and interpolation
 
           class Test{    
@@ -5,6 +15,7 @@
                   //composite formatting
                   //index of placeholder is important, starts with zero    
                   Console.WriteLine("current time is {0}",DateTime.Now.TimeOfDay);
+                  
                   //string interpolation : use $ before string
                   Console.WriteLine($"current time is {DateTime.Now.TimeOfDay}");   
               }
@@ -27,6 +38,7 @@
                     }
                     3.14159265358979
                     3.142
+                    
                     
 #### spaces 
 
