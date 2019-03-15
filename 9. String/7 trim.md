@@ -21,3 +21,6 @@
                     //output : hello world
                 }
             }
+
+
+#### PadRight and PadLeft : adding space to right and left side of the string
