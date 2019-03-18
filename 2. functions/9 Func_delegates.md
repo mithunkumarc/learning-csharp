@@ -1,3 +1,5 @@
+#### Func : builtin delegates
+#### in : input datatype , out : output datatype
 
             using System;
 
