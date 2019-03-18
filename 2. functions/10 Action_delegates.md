@@ -7,6 +7,8 @@
               //action has no return value
               static void Main(String[] args){           
 
+                      //ActionTypes<inputType1,inputType2,,,>
+                      
                       Action<int> printNumber = i => Console.WriteLine(i);
                       printNumber(10);
 
