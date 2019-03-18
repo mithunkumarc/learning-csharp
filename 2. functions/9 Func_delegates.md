@@ -21,3 +21,23 @@
 
                 }
             }
+
+
+#### passing Func as parameter to another function
+
+                        using System;
+                        class Program
+                        {
+                            public delegate TResult Func<in T, out TResult>(T arg);    
+                            static void Main(String[] args){           
+                                Func<int,String> square = number => $"the square of {number} is {number * number}";
+                                var result = accept_logic(square);       
+                                Console.WriteLine(result);
+                            }
+                            static String accept_logic(Func<int,String> sq){
+                               return sq(5);
+                            }
+                        }
+                        
+                        
+                        the square of 5 is 25
