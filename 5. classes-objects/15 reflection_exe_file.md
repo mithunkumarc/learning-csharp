@@ -1,5 +1,7 @@
 #### example : creating instance of class from anther assembly(exe) file : usefull to test accessmodifiers
 
+#### also : example for reading class from another assembly
+
 #### lib.cs
 
               using System;
