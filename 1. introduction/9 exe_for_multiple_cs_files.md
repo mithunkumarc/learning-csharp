@@ -49,6 +49,20 @@
         mono MyProgram.exe
 
 
+#### another simple way : without dll
+      
+      clear all other files in directory
+      
+
+      csc /t:exe /out:MyProgram.exe lib.cs client.cs
+      
+      --or--
+      
+      csc /t:exe /out:MyProgram.exe *.cs
+
+      mono MyProgram.exe 
+      hello world
+
 
 #### source : 
 
