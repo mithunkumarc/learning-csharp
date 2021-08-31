@@ -69,3 +69,4 @@ installation
                         https://github.com/la-yumba/functional-csharp-code/tree/master/Examples
                         https://github.com/AllAlgorithms/csharp
                         https://github.com/benperk/BeginningCSharp7
+                        https://zetcode.com
