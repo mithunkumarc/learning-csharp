@@ -1,5 +1,9 @@
 # csharp
 
+#### install on ubuntu with vs code
+
+        https://www.youtube.com/watch?v=WeTesTCzep0
+
 installation
 
 ##### 1 .Install .NET Core 2.0 Runtime on Linux Ubuntu XX.XX x64
