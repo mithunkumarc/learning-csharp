@@ -70,3 +70,4 @@ installation
                         https://github.com/AllAlgorithms/csharp
                         https://github.com/benperk/BeginningCSharp7
                         https://zetcode.com
+                        https://www.youtube.com/playlist?list=PL0eyrZgxdwhxD9HhtpuZV22KxEJAZ55X-
