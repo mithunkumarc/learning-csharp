@@ -65,7 +65,14 @@ installation
 
                 sudo apt install mono-devel
                 
-                
+#### dotnet new
+
+                prints what type of projects can be created using dotnet command
+                webapi for rest api, dotnet uses open api(check path)
+                after creating project, build and run
+                check swagger : 
+                http://localhost:5157/swagger/index.html
+
 #### references : 
 
                         https://github.com/dotnet/training-tutorials/blob/master/content/csharp/getting-started/README.md
