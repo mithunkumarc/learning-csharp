@@ -82,3 +82,4 @@ installation
                         https://github.com/benperk/BeginningCSharp7
                         https://zetcode.com
                         https://www.youtube.com/playlist?list=PL0eyrZgxdwhxD9HhtpuZV22KxEJAZ55X-
+                        https://programmingwithmosh.com/net/csharp-6-features-that-help-you-write-cleaner-code/
