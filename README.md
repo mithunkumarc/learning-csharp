@@ -53,7 +53,21 @@ installation
 ##### 5. check c#
               dotnet --info
               
-              
+
+#### practice
+
+        constructor chaining : passing arguments
+        object initializers
+        params method parameters
+        ref,out modifier : not recommended
+        parsing numbers
+        readonly : initialized only once(like final in java)
+        setter/getter vs properties
+        auto implemented property(you create prop/compiler create field) (decode ildasm Properties.exe)
+        
+        auto implemented property
+        calculated property
+        indexer
               
 #### upgrade mono compiler on ubuntu
       https://www.mono-project.com/download/stable/
