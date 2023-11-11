@@ -80,6 +80,7 @@ installation
         nullable types
         dynamic
         async await
+        built in delegate, Action, Func predicate, user define delegate
 
               
 #### upgrade mono compiler on ubuntu
