@@ -75,6 +75,11 @@ installation
         sealed class, similar to final class in java, sealed method, similar to final method in java
         using(expression) // try resource in java????
         open closed principel(mail service/notification example) (one of the useful of interface)
+        Extension methods : linq examples
+        delegates
+        nullable types
+        dynamic
+        async await
 
               
 #### upgrade mono compiler on ubuntu
