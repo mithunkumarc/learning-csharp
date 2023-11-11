@@ -69,6 +69,7 @@ installation
         calculated property
         indexer
         add reference/class library or dll (import class from jar file)
+        as vs is keyword
 
               
 #### upgrade mono compiler on ubuntu
