@@ -72,6 +72,7 @@ installation
         as vs is keyword
         boxing vs unboxing
         virtual , override method
+        sealed class, similar to final class in java, sealed method, similar to final method in java
 
               
 #### upgrade mono compiler on ubuntu
