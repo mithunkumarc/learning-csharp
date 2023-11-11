@@ -74,6 +74,7 @@ installation
         virtual , override method
         sealed class, similar to final class in java, sealed method, similar to final method in java
         using(expression) // try resource in java????
+        open closed principel(mail service/notification example) (one of the useful of interface)
 
               
 #### upgrade mono compiler on ubuntu
