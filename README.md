@@ -68,6 +68,8 @@ installation
         auto implemented property
         calculated property
         indexer
+        add reference/class library or dll (import class from jar file)
+
               
 #### upgrade mono compiler on ubuntu
       https://www.mono-project.com/download/stable/
