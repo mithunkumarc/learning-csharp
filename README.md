@@ -81,6 +81,7 @@ installation
         dynamic
         async await
         built in delegate, Action, Func predicate, user define delegate
+        anonymous types
 
               
 #### upgrade mono compiler on ubuntu
